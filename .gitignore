@@ -1,0 +1,28 @@
+# Credenciales y configuración local
+/wp-config.php
+.env
+.env.*
+!.env.example
+
+# Archivos subidos y temporales
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/upgrade-temp-backup/
+
+# Copias de seguridad
+/wp-content/backups/
+/wp-content/updraft/
+/wp-content/ai1wm-backups/
+*.sql
+*.sql.gz
+
+# Registros y herramientas locales
+*.log
+/.idea/
+/.vscode/
+/node_modules/
+
+# Diagnósticos temporales
+/info.php
+/runtime-check.php
